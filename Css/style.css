@@ -1,0 +1,59 @@
+:root{
+  --container-height:245px;
+}
+.prices-container{
+  /* border: 2px solid Red; */
+  height: var(--container-height);
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.prices-container-box{
+  display: inline-block;
+    /* border: 2px solid Red; */
+  height: var(--container-height);
+  width: 150px;
+}
+.prices-container-box-img{
+  padding: 5px;
+  height: 140px;
+  width: 140px;
+  border-radius: 8%;
+  border: 1px solid black;
+}
+.prices-rule{
+  height: var(--container-height);
+}
+.prices-container-a{
+  color: black;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#navbar{
+  border-top: 2px solid black;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  justify-content:space-evenly ;
+  /* background-color: black; */
+  }
+.navbar-a{
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  color : black;
+  font-size: 10px;
+}
+.navbar-a:hover{
+  background-color: white;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Yusei Magic', sans-serif;
+}

@@ -1,0 +1,36 @@
+document.getElementById(" -----Element-ID----- ").innerHTML= product1.productPrice ;
+document.getElementById(" -----Element-ID----- ").src = product1.productImgSrc ;
+document.getElementById(" -----Element-ID----- ").innerHTML = product1.productName ;
+
+
+
+
+
+
+
+
+  <!-- <script>
+function menupage() {
+  if ( document.getElementById("menu").style.display != 'flex'){
+    document.getElementById("menu").style.display = 'flex'
+    document.getElementById("menu").style.animation = 'menu_page_animation 0.5s ease-in-out 0ms 1 normal forwards'
+    document.getElementById("navbar_menu").src = 'https://p.kindpng.com/picc/s/249-2496949_nothing-mobile-menu-close-icon-hd-png-download.png'
+
+  }
+  else if(document.getElementById("menu").style.animation = 'menu_page_animation 0.5s ease-in-out 0ms 1 normal forwards'){
+    document.getElementById("menu").style.animation = 'menu_page_animation_back 0.5s ease-in-out 0ms 1 normal forwards'
+    document.getElementById("a").style.display = 'none'
+    document.getElementById("ab").style.display = 'none'   
+    document.getElementById("abcd").style.display = 'none'
+    document.getElementById("abcde").style.display = 'none' 
+    document.getElementById("abc").style.display = 'none'
+    document.getElementById("navbar_menu").src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png'  }
+  else if(document.getElementById("menu").style.animation = 'menu_page_animation_back 0.5s ease-in-out 0ms 1 normal forwards'){
+    document.getElementById("menu").style.display = 'flex'
+    document.getElementById("menu").style.animation = 'menu_page_animation 0.5s ease-in-out 0ms 1 normal forwards'  
+  }
+  else{
+    document.getElementById("menu").style.display = 'none'
+  }
+}
+</script> -->

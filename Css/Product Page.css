@@ -1,0 +1,37 @@
+.productPageImg{
+border-radius: 2%;
+  height: 85vw;
+}
+.productPage{
+
+}
+.productPageDescription, .productPageNutrition, .productPageProducts{
+  background-color: darkblue;
+  color: white;
+}
+.subProductName, .subProductPrice{
+  display: inline;
+}
+#productPageSubProductNames{
+  display: inline-block;
+  height: auto;
+  width: 70vw;
+  text-align: left;
+  /* border: 2px solid green; */
+}
+#productPageSubProductPrices{
+  display: inline-block;
+  height: auto;
+  width: 15vw;
+  text-align: right;
+  /* border: 2px solid green; */
+}
+#productPageSubProductTable{
+  display: flex;
+}
+*{
+  width: 85vw;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Yusei Magic', sans-serif;
+}
